@@ -1,0 +1,220 @@
+/* Screens between 1023px and 1200px */
+@media only screen and (max-width: 1200px) {
+	.group { padding: 0 2%; }
+	
+	.headline-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+
+/* Screens between 768px and 1023px */
+@media only screen and (max-width: 1023px) {
+	body { font-size: 18px; }
+	section { padding: 60px 0;}
+	
+	
+	.description-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	
+	.steps-box { margin-top: 10px; }
+	.steps-box:last-child {	margin-top: 10px; }
+	
+	.work-step { margin-bottom: 40px; }
+	.work-step:last-of-type { margin-bottom: 60px; }
+	
+	.app-screen { width: 50%; }
+	
+	.step-num {
+		width: 45px;
+		height: 45px;
+		padding: 8px;
+		margin-right: 25px;
+	}
+
+	.icon-small { 
+		width: 17px;
+		margin-right: 5px;
+	}
+	
+	.city-feature { font-size: 90%; }
+		
+	.plan-box {
+		width: 100%;
+		margin-left: 0%;
+	}
+	
+	.plan-price { font-size: 250%; }
+	#contact-form { width: 90%; }
+	
+	/*---------- MAP --------------*/
+	.contact-box {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+
+
+	#map {
+		width: 100%;
+		height: 300px;
+	}
+
+	/*---------- CONTACT FORM --------------*/
+
+	#form-box {
+		position:relative;
+		width: 100%;
+		height: auto;
+		padding: 30px 0;
+	}
+
+	#contact-form {
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+/* Screens between 481px and 767px */
+@media only screen and (max-width: 767px) {
+	body { font-size: 16px; }
+	section { padding: 30px 0; }
+	h1 { font-size: 180%; }
+	h2 { font-size: 150%; }
+	
+	.group,
+	.headline-box { padding: 0 4%; }
+	
+	.col {
+		width: 100%;
+		margin: 0 0 4% 0;
+	}
+		
+	 .mobile-nav-btn { display: inline-block; }
+	
+	.main-nav { 
+		float: left;
+		margin-top: 30px;
+		margin-left: 25px;
+		max-height: 0;
+		overflow-y: hidden;
+		-webkit-transition: max-height .3s ease;
+		transition: max-height .3s ease;
+	}
+	
+	.main-nav.active {
+		display: inline-block;
+		max-height: 240px;
+	}
+		
+	.main-nav li { 
+		display:block;
+	}
+	
+	.main-nav li:last-of-type { margin-bottom: 10px}
+	
+	.main-nav li a:link,  
+	.main-nav li a:visited 
+	{ 
+		display: block;
+		padding: 10px 0;
+/*		border: 0;*/
+		font-size: 100%;
+	}
+	
+	.sticky-nav .main-nav { margin-top: 10px; }
+	
+	.sticky-nav .main-nav li a:link,
+	.sticky-nav .main-nav li a:visited { padding: 10px 0; }
+	
+	
+	.sticky-nav .mobile-nav-btn { margin-top: 10px; }
+	.sticky-nav .mobile-nav-btn i {
+		color: #555;
+	}
+
+
+	
+	.description-copy { 
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	
+	.steps-box:first-child { text-align: center; }
+	
+	.app-screen { width: 30%; }
+	
+	.work-step { margin-bottom: 20px; }
+	.work-step:last-of-type { margin-bottom: 20px; }
+	
+	.step-num {
+		width: 40px;
+		height: 40px;
+		padding: 8px;
+		margin-right: 15px;
+		font-size: 120%;
+	}
+	
+	.quote {
+		margin-top: 30px;
+		padding: 1% 2%;
+		font-size: 110%
+	}
+	
+	.quote cite {
+		margin-top: 15px
+	}
+	
+	footer {
+		padding: 40px;
+		font-size: 80%;
+	}
+
+	footer p {
+		color: #7e7e7e;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	
+	.footer-nav {
+		list-style: none;
+		float:left;
+	}
+
+	/*---------- LINKS  --------------*/
+
+	.footer-nav li,
+	.social-links li {
+		font-size: 110%;
+		margin-bottom: 8px;
+		
+	}
+
+	.footer-nav li:last-child,
+	.social-links li:last-child {
+		margin-right: 0;
+	}
+	
+	footer .span_1_of_2 {
+		width: 50%;
+	}
+
+}
+
+/* Screens between 0 and 480px */
+@media only screen and (max-width: 480px) {
+	
+	section { padding: 25px 0; }
+	
+	#contact-form { width: 100%; }
+	
+	.quote {
+		font-size: 110%;
+	}
+	
+}

@@ -553,7 +553,6 @@ PLANS SECTION
 .plan-box div {
 	padding: 15px;
 	border-bottom: 1px solid #e8e8e8;
-	font-weight: 100;
 }
 
 .plan-box div:first-child {
@@ -564,7 +563,7 @@ PLANS SECTION
 
 .plan-box div:last-child {
 	text-align: center;
-	border-bottom: 0;
+	border: 0;
 }
 
 .plan-price {

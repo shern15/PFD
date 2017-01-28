@@ -10,7 +10,7 @@
 		features_wp.waypoint(function(direction) {
 			features_wp.addClass('animated fadeIn');
 		}, {
-			offset: "50%"
+			offset: "60%"
 		});
 
 		screen_wp.waypoint(function(direction) {

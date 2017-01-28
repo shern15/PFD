@@ -6,6 +6,9 @@
 		width: 100%;
 		padding: 0 2%;
 	}
+	
+	.sticky-nav .main-nav li a:link,  
+	.sticky-nav .main-nav li a:visited { padding: 18px 0; }
 }
 
 /* Screens between 768px and 1023px */

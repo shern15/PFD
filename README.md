@@ -14,9 +14,10 @@ The [Responsive Grid System](http://www.responsivegridsystem.com/) is used to st
 The site is made responsive through the use of four media queries corresponding to different screen sizes in the range 0 - 1200px. The navigation links are collapsed into a dropdown list on screens with a width below 768px to maintain ease of use and readability.
 
 The animation effects and transitions that occur up scrolling to the different sections are achieved using the [Animate.css](https://daneden.github.io/animate.css/) CSS library. [Waypoints](http://imakewebthings.com/waypoints/) is used to trigger the appropriate animations when users get to a particular section on the site.
-<br />
-<img src="screenshots/map-form.png" alt="Map and Form" style="margin-bottom: 10px;"/>
-<br />
+
+
+![Map and Form](screenshots/map-form.png)
+
 The [gmaps.js](https://hpneo.github.io/gmaps/) library is used in conjunction with the [Google Maps APIs](https://developers.google.com/maps/) to make it easier to display and manipulate the map in the Feedback section with a few lines of code.
 
 The feedback form is disabled as Github does not allow PHP in their Github Pages. Social and footer links do not lead away from the landing page as of now.

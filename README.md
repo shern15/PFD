@@ -1,4 +1,4 @@
-# Premium Food Delivery Page
+# Premium Food Delivery Site
 <img src="screenshots/header.png" alt="Header" width="80%"/>
 
 Responsive site that uses CSS to implement animations as well as some javascript and jQuery to integrate Google Maps and scroll-on-click site behaviours.
